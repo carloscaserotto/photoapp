@@ -54,7 +54,6 @@
             <li><%= link_to "Link3", "/path3"  %></li>
           </ul>
           <ul class="nav navbar-right col-md-4">
-
           <% if current_user %>
             <li class="col-md-8 user-name">
             <%= link_to ('<i class="fa fa-user"></i> ' + truncate(current_user.email, length: 25)).html_safe,
